@@ -5,7 +5,7 @@ import logo from '../images/logo.png';
 
 const navigation = [
   { name: 'Home', href: '/', current: true, hidden: false },
-  { name: 'White paper', href: '#', current: false, hidden: false },
+  { name: 'White Paper', href: '#', current: false, hidden: false },
   { name: 'Launch App', href: '#', current: false , hidden: true}
 ]
 
