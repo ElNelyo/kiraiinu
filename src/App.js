@@ -27,7 +27,7 @@ function App() {
           <div className="text-white md:ml-48 text-xl font-bold tilt">soon on arbitrum</div>
           <div className="text-white md:ml-48 text-xl font-bold tilt">Don't miss it !</div>
 
-          <div className='px-2 py-2 mt-8 md:ml-48 text-center font-bold  tilt text-white text-4xl bg-gradient-to-r from-purple-medium to-indigo-400 rounded-lg'>BUY $KIRAI</div>
+          <div className='px-2 py-2 mt-8 md:ml-48 text-center font-bold  tilt text-white text-xl  md:w-48 w-72 md:text-4xl bg-gradient-to-r from-purple-medium to-indigo-400 rounded-lg'>BUY $KIRAI</div>
           <div className='text-sm mt-2 text-gray-400 md:ml-48'>
             <a href='https://bridge.arbitrum.io/?l2ChainId=42161'>Bridge to arbitrum</a>
             </div>
@@ -49,7 +49,8 @@ function App() {
 
             <div className={"flex flex-col hidden md:block"}>
             <div className="tilt font-bold text-purple-extra-hard text-4xl">If you have any questions</div>
-            <div className="tilt font-bold text-purple-extra-hard text-xl">Come hang out with us on Telegram where the team and our lovely community can help you find answers!</div>
+            <div className="tilt font-bold text-purple-extra-hard text-xl">Come hang out with us on Telegram!
+            The team and our community can help you find answers!</div>
             </div>
               <div className="flex flex-row md:flex-col md:space-y-4 mb-8 md:mb-0 justify-around">
                   <div className="h-14 w-14 bg-gradient-to-r from-purple-medium to-indigo-400 rounded-lg">
