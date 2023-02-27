@@ -9,6 +9,7 @@ import main from './images/main.png';
 import jeton from './images/jeton.png';
 import { ReactComponent as Twitter }from './images/twitter.svg';
 import { ReactComponent as Medium }from './images/medium.svg';
+import { ReactComponent as Telegram }from './images/telegram.svg';
 
 function App() {
   return (
@@ -39,13 +40,13 @@ function App() {
 
         </div>
      
-        <div className='h-96 bg-purple-low pt-8 pb-20'>
+        <div className='h-96 bg-purple-low pt-8 pb-42'>
                 <div className='text-center tilt pt-8 text-purple-hard font-bold text-4xl md:text-8xl'>About Kirai Inu</div>
-                <div className='text-purple-medium font-bold text-center text-xl md:text-4xl mt-2'>Kirai Inu is The Dark Shiba 🐶⚫</div>
-                <div className='text-center text-xl mt-8 text-black  px-2 md:px-72 w-full justify-center'>$KIRAI is a sustainable token, aiming to provide safety to investors through its own Decentralized Exchange and Private Dashboard based on the Arbitrum blockchain</div>
-                <div className='text-center text-xl mt-8  text-black  px-2 md:px-72 w-full justify-center'>We want to make the project as sustainable as possible through several features like our SafetySwap, the Staking and Kirai Inu NFTs</div>
-                <div className='text-center text-xl mt-8  text-black  px-2 md:px-72 w-full justify-center'>The project aims to restore trust in a system designed not only to reward the creators, but to bring wealth to the entire community.</div>
-                <div className='text-center text-xl mt-8  text-black  px-2 md:px-72 w-full justify-center'>The dog is man's best friend and Kirai Inu is the investors' best friend!</div> 
+                <div className='tilt font-bold text-purple-extra-hard text-4xl text-center mt-2'>Kirai Inu is The Dark Shiba 🐶⚫</div>
+                <div className='text-center text-xl mt-12 2xl:mt-24 text-black  px-2 md:px-72 w-full justify-center'>$KIRAI is a sustainable token, aiming to provide safety to investors through its own Decentralized Exchange and Private Dashboard based on the Arbitrum blockchain</div>
+                <div className='text-center text-xl mt-12 2xl:mt-24 text-black  px-2 md:px-72 w-full justify-center'>We want to make the project as sustainable as possible through several features like our SafetySwap, the Staking and Kirai Inu NFTs</div>
+                <div className='text-center text-xl mt-12 2xl:mt-24 text-black  px-2 md:px-72 w-full justify-center'>The project aims to restore trust in a system designed not only to reward the creators, but to bring wealth to the entire community.</div>
+                <div className='text-center text-xl mt-12  2xl:mt-24 text-black  px-2 md:px-72 w-full justify-center'>The dog is man's best friend and Kirai Inu is the investors' best friend!</div> 
                 
                 <div className='text-4xl font-bold text-center mt-20'>Tokenomics</div>
                 <div className='w-2/3 flex flex-row justify-around mx-auto mt-4'>
@@ -71,7 +72,7 @@ function App() {
                 
           </div>
          
-        <img className="w-full bg-purple-low md:pt-64 md:pt-0" src={backgroundParachute}></img>
+        <img className="w-full bg-purple-low md:pt-[450px]" src={backgroundParachute}></img>
     
 
 
@@ -96,6 +97,11 @@ function App() {
                   <div className="h-14 w-14 bg-gradient-to-r from-purple-medium to-indigo-400 rounded-lg">
                     <a href="https://twitter.com/kiraiinu">
                     <Twitter className="ml-1 pt-3 w-12 h-12 text-white" fill={"white"}/>
+                    </a>
+                  </div>
+                  <div className="h-14 w-14 bg-gradient-to-r from-purple-medium to-indigo-400 rounded-lg">
+                    <a href="https://twitter.com/kiraiinu">
+                    <Telegram className="ml-1 pt-3 w-12 h-12 text-white" fill={"white"}/>
                     </a>
                   </div>
                   <div className="h-14 w-14 bg-gradient-to-r from-purple-medium  to-indigo-400 rounded-lg">

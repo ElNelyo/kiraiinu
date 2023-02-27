@@ -4,7 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../images/logo.png';
 import { ReactComponent as Twitter }from '../images/twitter.svg';
 import { ReactComponent as Medium }from '../images/medium.svg';
-
+import { ReactComponent as Telegram }from '../images/telegram.svg';
 
 const navigation = [
   { name: 'Home', href: '/', current: true, hidden: false },
@@ -72,14 +72,14 @@ export default function Navbar() {
                     ))}
 
                   <div className="hidden space-x-2 md:flex flex-row md:mb-0 right-0 md:absolute">
-                                      <div className="h-14 w-14 bg-gradient-to-r from-purple-medium to-indigo-400 rounded-lg">
+                                      <div className="h-14 w-14 bg-gradient-to-r from-purple-medium to-indigo-400 rounded-full">
                                         <a href="https://twitter.com/kiraiinu">
                                         <Twitter className="ml-1 pt-3 w-12 h-12 text-white" fill={"white"}/>
                                         </a>
                                       </div>
-                                      <div className="h-14 w-14 bg-gradient-to-r from-purple-medium  to-indigo-400 rounded-lg">
+                                      <div className="h-14 w-14 bg-gradient-to-r from-purple-medium  to-indigo-400 rounded-full">
                                         <a href="https://medium.com/@kiraiinu.token">
-                                          <Medium className="ml-1 pt-3 w-12 h-12 text-white" fill={"white"}/>
+                                          <Telegram className="ml-1 pt-3 w-12 h-12 text-white" fill={"white"}/>
                                         </a>
                                     </div>
                                 </div>
