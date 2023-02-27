@@ -51,7 +51,7 @@ function App() {
                 <div className='text-center text-3xl mt-12 text-black  px-2 md:px-72 w-full justify-center'>The project aims to restore trust in a system designed not only to reward the creators, but to bring wealth to the entire community.</div>
                 <div className='text-center text-3xl mt-12  text-black  px-2 md:px-72 w-full justify-center'>The dog is man's best friend and Kirai Inu is the investors' best friend!</div> 
                 
-                <div className='text-6xl font-extrabold text-center mt-20'>Tokenomics</div>
+                <div className='text-6xl font-extrabold text-center mt-20 mb-8'>Tokenomics</div>
                 <div className='w-2/3 flex flex-row justify-around mx-auto mt-4'>
                
                 <div className='flex flex-col mx-auto justify-center text-center'>
@@ -92,7 +92,7 @@ function App() {
             <div className="h-8  blcok md:hidden mb-8 bg-gradient-to-r from-purple-medium to-indigo-400 w-full"></div>
 
             <div className={"flex flex-col hidden md:block"}>
-            <div className="tilt font-bold text-purple-extra-hard text-4xl">If you have any questions</div>
+            <div className="tilt font-bold text-purple-extra-hard text-4xl mb-8">If you have any questions</div>
             <div className="tilt font-bold text-purple-extra-hard text-xl">Come hang out with us on Telegram!
             The team and our community can help you find answers!</div>
             </div>
