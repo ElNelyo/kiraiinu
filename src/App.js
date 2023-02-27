@@ -22,16 +22,16 @@ function App() {
         <img className="w-32 top-12 right-3/4 hidden md:block md:absolute" src={parachute}/>
         <img className="w-48 bottom-0 mt-12 hidden md:block left-12 absolute" src={parachute}/>
 
-        <div className="w-full flex flex-col md:flex-row space-x-12 mx-auto w-full justify-center ">
-        <div className='mt-36'>
+        <div className="w-full flex flex-col md:flex-row 2xl:space-x-12 mx-auto w-full ">
+        <div className='2xl:mt-36 text-center md:text-left'>
           <div className="text-white md:ml-48 mt-12 text-8xl font-bold poppins">Kirai Inu</div>
           <div className="text-white md:ml-48 mt-8 2xl:text-4xl text-xl font-bold tilt">The Dark Shiba coming</div>
           <div className="text-white md:ml-48 2xl:text-4xl text-xl font-bold tilt">soon on Arbitrum</div>
           <div className="text-white md:ml-48  2xl:text-4xl text-xl font-bold tilt">Don't miss it !</div>
 
           <div className='flex flex-row space-x-4'>
-            <div className=' px-2 py-2 mt-8 md:ml-48 text-center font-bold  tilt text-white text-md  md:w-48 w-72 2xl:w-4/5 md:text-2xl bg-gradient-to-r from-purple-medium to-indigo-400 rounded-lg'>BUY $KIRAI</div>
-            <div className=' px-2 py-2 mt-8 md:ml-48 text-center font-bold  tilt text-white text-md md:w-48 w-72 2xl:w-4/5 md:text-2xl bg-gradient-to-r from-purple-medium to-indigo-400 rounded-lg'>LAUNCH DAPP</div>
+            <div className=' px-1 md:px-2 py-2 mt-8 md:ml-48 text-center font-bold  tilt text-white text-sm  md:w-48 w-72 2xl:w-4/5 md:text-2xl bg-gradient-to-r from-purple-medium to-indigo-400 rounded-lg'>BUY $KIRAI</div>
+            <div className=' px-1 md:px-2 py-2 mt-8 md:ml-48 text-center font-bold  tilt text-white text-sm md:w-48 w-72 2xl:w-4/5 md:text-2xl bg-gradient-to-r from-purple-medium to-indigo-400 rounded-lg'>LAUNCH DAPP</div>
           </div>
           <div className='2xl:text-xl text-sm mt-4 text-gray-400 md:ml-48'>
             <a href='https://bridge.arbitrum.io/?l2ChainId=42161'>Bridge to Arbitrum</a>
@@ -43,7 +43,7 @@ function App() {
 
         </div>
      
-        <div className='h-96 bg-purple-low pt-8 pb-42 px-48'>
+        <div className='h-[1400px] md:h-96 bg-purple-low pt-8 pb-42 2xl:px-48'>
                 <div className='text-center pt-8 text-purple-hard font-extrabold text-4xl md:text-8xl'>About Kirai Inu</div>
                 <div className='text-center text-3xl mt-12  text-black  px-2 md:px-72 w-full justify-center'>Kirai Inu is The Dark Shiba 🐶⚫</div>
                 <div className='text-center text-3xl mt-12  text-black  px-2 md:px-72 w-full justify-center'>$KIRAI is a sustainable token, aiming to provide safety to investors through its own Decentralized Exchange and Private Dashboard based on the Arbitrum blockchain</div>
@@ -55,16 +55,16 @@ function App() {
                 <div className='w-2/3 flex flex-row justify-around mx-auto mt-4'>
                
                 <div className='flex flex-col mx-auto justify-center text-center'>
-                      <div class="font-bold text-purple-hard text-4xl"> 1B</div>
-                      <div class="font-bold text-gray-600 uppercase text-center">Total Supply</div>
+                      <div class="font-bold text-purple-hard text-2xl md:text-4xl"> 1B</div>
+                      <div class="font-bold text-sm md:text-xl  text-gray-600 uppercase text-center">Total Supply</div>
                   </div>
                   <div className='flex flex-col mx-auto justify-center text-center'>
-                      <div class="font-bold text-purple-hard text-4xl"> 4%</div>
-                      <div class="font-bold text-gray-600 uppercase text-center">Transaction fee</div>
+                      <div class="font-bold text-purple-hard text-2xl md:text-4xl"> 4%</div>
+                      <div class="font-bold text-sm md:text-xl text-gray-600 uppercase text-center">Transaction fee</div>
                   </div>
                   <div className='flex flex-col mx-auto justify-center text-center'>
-                      <div class="font-bold text-purple-hard text-4xl"> 2%</div>
-                      <div class="font-bold text-gray-600 uppercase text-center">Max Wallet </div>
+                      <div class="font-bold text-purple-hard text-2xl md:text-4xl"> 2%</div>
+                      <div class="font-bold text-sm md:text-xl  text-gray-600 uppercase text-center">Max Wallet </div>
                   </div>
                 </div>
 
@@ -75,7 +75,7 @@ function App() {
                 
           </div>
          
-        <img className="w-full bg-purple-low md:pt-[450px]" src={backgroundParachute}></img>
+        <img className="w-full bg-purple-low md:pt-[650px] 2xl:pt-[450px]" src={backgroundParachute}></img>
     
 
 
