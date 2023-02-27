@@ -8,9 +8,9 @@ import { ReactComponent as Medium }from '../images/medium.svg';
 
 const navigation = [
   { name: 'Home', href: '/', current: true, hidden: false },
-  { name: 'Doc Paper', href: '#', current: false, hidden: false },
-  { name: 'Light Paper', href: '#', current: false, hidden: false },
-  { name: 'Chart', href: '#', current: false , hidden: true},
+  { name: 'Docs', href: '#', current: false, hidden: false },
+  { name: 'LitePaper', href: '#', current: false, hidden: false },
+  { name: 'Chart', href: '#', current: false , hidden: false},
   { name: 'Launch App', href: '#', current: false , hidden: true}
 ]
 

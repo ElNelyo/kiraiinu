@@ -39,17 +39,43 @@ function App() {
 
         </div>
      
-        <div className='h-96 bg-purple-low pt-8 pb-8'>
+        <div className='h-96 bg-purple-low pt-8 pb-20'>
                 <div className='text-center tilt pt-8 text-purple-hard font-bold text-4xl md:text-8xl'>About Kirai Inu</div>
-                <div className='text-purple-medium font-bold text-center text-xl md:text-4xl mt-2'>Kirai Inu is The Dark Shiba 🐶</div>
-                <div className='text-center text-xl mt-8 font-bold text-black  px-2 md:px-24 w-full justify-center'>$KIRAI is a sustainable token, aiming to provide safety to investors through its own Decentralized Exchange and Private Dashboard based on the Arbitrum blockchain</div>
-                <div className='text-center text-xl mt-8 font-bold text-black  px-2 md:px-24 w-full justify-center'>The dog is man's best friend and Kirai Inu is the investors' best friend!</div> 
-                <img className="w-48 top-0 mt-12 hidden md:block left-12" src={jeton}/>
-          </div>
+                <div className='text-purple-medium font-bold text-center text-xl md:text-4xl mt-2'>Kirai Inu is The Dark Shiba 🐶⚫</div>
+                <div className='text-center text-xl mt-8 text-black  px-2 md:px-72 w-full justify-center'>$KIRAI is a sustainable token, aiming to provide safety to investors through its own Decentralized Exchange and Private Dashboard based on the Arbitrum blockchain</div>
+                <div className='text-center text-xl mt-8  text-black  px-2 md:px-72 w-full justify-center'>We want to make the project as sustainable as possible through several features like our SafetySwap, the Staking and Kirai Inu NFTs</div>
+                <div className='text-center text-xl mt-8  text-black  px-2 md:px-72 w-full justify-center'>The project aims to restore trust in a system designed not only to reward the creators, but to bring wealth to the entire community.</div>
+                <div className='text-center text-xl mt-8  text-black  px-2 md:px-72 w-full justify-center'>The dog is man's best friend and Kirai Inu is the investors' best friend!</div> 
+                
+                <div className='text-4xl font-bold text-center mt-20'>Tokenomics</div>
+                <div className='w-2/3 flex flex-row justify-around mx-auto mt-4'>
+               
+                  <div className='flex flex-col mx-auto'>
+                      <div class="font-bold text-purple-hard text-4xl"> 1B</div>
+                      <div class="font-bold text-puprle-small">Total Supply</div>
+                  </div>
+                  <div className='flex flex-col mx-auto'>
+                      <div class="font-bold text-purple-hard text-4xl"> 4%</div>
+                      <div class="font-bold text-puprle-small">Transaction fee</div>
+                  </div>
+                  <div className='flex flex-col mx-auto'>
+                      <div class="font-bold text-purple-hard text-4xl"> 2%</div>
+                      <div class="font-bold text-puprle-small">Max Wallet </div>
+                  </div>
+                </div>
 
+
+                <img className="w-48 top-0 mt-12 hidden md:block left-12" src={jeton}/>
+
+
+                
+          </div>
          
-        <img className="w-full bg-purple-low md:pt-12 md:pt-0" src={backgroundParachute}></img>
+        <img className="w-full bg-purple-low md:pt-64 md:pt-0" src={backgroundParachute}></img>
     
+
+
+
       </div>
   
   
