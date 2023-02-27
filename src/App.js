@@ -42,7 +42,7 @@ function App() {
      
         <div className='h-96 bg-purple-low pt-8 pb-42'>
                 <div className='text-center tilt pt-8 text-purple-hard font-bold text-4xl md:text-8xl'>About Kirai Inu</div>
-                <div className='tilt font-bold text-purple-extra-hard text-4xl text-center mt-2'>Kirai Inu is The Dark Shiba 🐶⚫</div>
+                <div className='text-center text-xl mt-12 2xl:mt-24 text-black  px-2 md:px-72 w-full justify-center'>Kirai Inu is The Dark Shiba 🐶⚫</div>
                 <div className='text-center text-xl mt-12 2xl:mt-24 text-black  px-2 md:px-72 w-full justify-center'>$KIRAI is a sustainable token, aiming to provide safety to investors through its own Decentralized Exchange and Private Dashboard based on the Arbitrum blockchain</div>
                 <div className='text-center text-xl mt-12 2xl:mt-24 text-black  px-2 md:px-72 w-full justify-center'>We want to make the project as sustainable as possible through several features like our SafetySwap, the Staking and Kirai Inu NFTs</div>
                 <div className='text-center text-xl mt-12 2xl:mt-24 text-black  px-2 md:px-72 w-full justify-center'>The project aims to restore trust in a system designed not only to reward the creators, but to bring wealth to the entire community.</div>
