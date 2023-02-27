@@ -95,6 +95,7 @@ function App() {
             <div className="tilt font-bold text-purple-extra-hard text-4xl mb-8">If you have any questions</div>
             <div className="tilt font-bold text-purple-extra-hard text-xl">Come hang out with us on Telegram!
             The team and our community can help you find answers!</div>
+            <div>Email : <a className="font-bold" href="mailto:contact@kiraiinu.com">contact@kiraiinu.com</a></div>
             </div>
               <div className="flex flex-row md:flex-col md:space-y-4 mb-8 md:mb-0 justify-around">
                   <div className="h-12 w-12 bg-gradient-to-r from-purple-medium to-indigo-400 rounded-lg">
