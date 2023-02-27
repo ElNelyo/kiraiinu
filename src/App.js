@@ -22,7 +22,7 @@ function App() {
         <img className="w-32 top-12 right-3/4 hidden md:block md:absolute" src={parachute}/>
         <img className="w-48 bottom-0 mt-12 hidden md:block left-12 absolute" src={parachute}/>
 
-        <div className="w-full flex flex-col md:flex-row 2xl:space-x-12 mx-auto w-full ">
+        <div className="w-full flex flex-col md:flex-row 2xl:space-x-12 mx-auto w-full md:justify-center">
         <div className='2xl:mt-36 text-center md:text-left'>
           <div className="text-white md:ml-48 mt-12 text-8xl font-bold poppins">Kirai Inu</div>
           <div className="text-white md:ml-48 mt-8 2xl:text-4xl text-xl font-bold tilt">The Dark Shiba coming</div>
