@@ -2,10 +2,15 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../images/logo.png';
+import { ReactComponent as Twitter }from '../images/twitter.svg';
+import { ReactComponent as Medium }from '../images/medium.svg';
+
 
 const navigation = [
   { name: 'Home', href: '/', current: true, hidden: false },
-  { name: 'White Paper', href: '#', current: false, hidden: false },
+  { name: 'Doc Paper', href: '#', current: false, hidden: false },
+  { name: 'Light Paper', href: '#', current: false, hidden: false },
+  { name: 'Chart', href: '#', current: false , hidden: true},
   { name: 'Launch App', href: '#', current: false , hidden: true}
 ]
 
@@ -31,7 +36,7 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center relative">
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="block h-24 w-auto lg:hidden"
@@ -45,7 +50,7 @@ export default function Navbar() {
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4 mt-8">
+                  <div className="flex space-x-4 mt-8 ">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
@@ -65,6 +70,20 @@ export default function Navbar() {
                         {item.name}
                       </a>
                     ))}
+
+                  <div className="hidden space-x-2 md:flex flex-row md:mb-0 right-0 md:absolute">
+                                      <div className="h-14 w-14 bg-gradient-to-r from-purple-medium to-indigo-400 rounded-lg">
+                                        <a href="https://twitter.com/kiraiinu">
+                                        <Twitter className="ml-1 pt-3 w-12 h-12 text-white" fill={"white"}/>
+                                        </a>
+                                      </div>
+                                      <div className="h-14 w-14 bg-gradient-to-r from-purple-medium  to-indigo-400 rounded-lg">
+                                        <a href="https://medium.com/@kiraiinu.token">
+                                          <Medium className="ml-1 pt-3 w-12 h-12 text-white" fill={"white"}/>
+                                        </a>
+                                    </div>
+                                </div>
+                    
                   </div>
                 </div>
               </div>
