@@ -104,7 +104,7 @@ function App() {
                     </a>
                   </div>
                   <div className="h-12 w-12 bg-gradient-to-r from-purple-medium to-indigo-400 rounded-lg">
-                    <a href="https://twitter.com/kiraiinu">
+                    <a href="https://t.me/kiraiinu">
                     <Telegram className="ml-1 pt-3 w-10 h-10 text-white" fill={"white"}/>
                     </a>
                   </div>

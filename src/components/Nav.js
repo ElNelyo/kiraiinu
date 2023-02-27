@@ -8,7 +8,7 @@ import { ReactComponent as Telegram }from '../images/telegram.svg';
 
 const navigation = [
   { name: 'Home', href: '/', current: true, hidden: false },
-  { name: 'Docs', href: '#', current: false, hidden: false },
+  { name: 'Docs', href: 'https://medium.com/@kiraiinu.token', current: false, hidden: false },
   { name: 'LitePaper', href: '#', current: false, hidden: false },
   { name: 'Chart', href: '#', current: false , hidden: false},
   { name: 'Launch App', href: '#', current: false , hidden: true}
@@ -78,7 +78,7 @@ export default function Navbar() {
                                         </a>
                                       </div>
                                       <div className="h-14 w-14 bg-gradient-to-r from-purple-medium  to-indigo-400 rounded-full">
-                                        <a href="https://medium.com/@kiraiinu.token">
+                                        <a href="https://t.me/kiraiinu">
                                           <Telegram className="ml-1 pt-3 w-12 h-12 text-white" fill={"white"}/>
                                         </a>
                                     </div>
