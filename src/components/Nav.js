@@ -8,7 +8,7 @@ import { ReactComponent as Telegram }from '../images/telegram.svg';
 
 const navigation = [
   { name: 'Home', href: '/', current: true, hidden: false },
-  { name: 'Docs', href: 'https://medium.com/@kiraiinu.token', current: false, hidden: false },
+  { name: 'Docs', href: 'https://kiraiinu.medium.com/', current: false, hidden: false },
   { name: 'LitePaper', href: '#', current: false, hidden: false },
   { name: 'Chart', href: '#', current: false , hidden: false},
   { name: 'Launch App', href: '#', current: false , hidden: true}
